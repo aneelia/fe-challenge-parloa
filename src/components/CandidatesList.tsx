@@ -1,4 +1,4 @@
-import { Candidate } from "../types"
+import { Candidate } from '../types';
 
 const CandidatesList = ({ candidates }: { candidates: Candidate[] }) => {
   return (
@@ -17,18 +17,18 @@ const CandidatesList = ({ candidates }: { candidates: Candidate[] }) => {
           return (
             <tr key={id} data-testid={`candidate-row-${id}`}>
               <td>
-                <img src={image} title={"Super accurate portrait of " + name} />
+                <img src={image} title={'Super accurate portrait of ' + name} />
               </td>
               <td>{name}</td>
               <td>{profession}</td>
               <td>{level}</td>
               <td className="number">{age}yrs</td>
             </tr>
-          )
+          );
         })}
       </tbody>
     </table>
-  )
-}
+  );
+};
 
-export default CandidatesList
+export default CandidatesList;
