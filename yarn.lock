@@ -3983,7 +3983,7 @@ vitest-fetch-mock@^0.4.2:
   resolved "https://registry.npmjs.org/vitest-fetch-mock/-/vitest-fetch-mock-0.4.2.tgz"
   integrity sha512-MuN/TCAvvUs9sLMdOPKqdXEUOD0E5cNW/LN7Tro3KkrLBsvUaH7iQWcznNUU4ml+GqX6ZbNguDmFQ2tliKqhCg==
 
-vitest@^3.2.4, vitest@>=0.31.0, vitest@>=2.0.0:
+vitest@>=0.31.0, vitest@>=2.0.0, vitest@3.2.4:
   version "3.2.4"
   resolved "https://registry.npmjs.org/vitest/-/vitest-3.2.4.tgz"
   integrity sha512-LUCP5ev3GURDysTWiP47wRRUpLKMOfPh+yKTx3kVIEiu5KOMeqzpnYNsKyOoVrULivR8tLcks4+lga33Whn90A==
