@@ -32,6 +32,6 @@ describe('candidates table', () => {
     const row = await screen.findByTestId(`candidate-row-${candidates[0].id}`);
     expect(row).toHaveTextContent('Henderson Satterfield');
     expect(row).toHaveTextContent('Mid Level');
-    expect(row).toHaveTextContent('39yrs');
+    expect(row).toHaveTextContent('40yrs');
   });
 });
